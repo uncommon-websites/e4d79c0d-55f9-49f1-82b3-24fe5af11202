@@ -5,10 +5,10 @@
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="text-center mb-16">
       <h2 class="text-5xl font-bold mb-6 tracking-tight">
-        One-click Bill of Materials
+        System Architecture at a Glance
       </h2>
       <p class="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
-        Save your team's precious time. Config replaces the lengthy process of manual BOM creation with one-click BOM from your engineering assembly, all driven by CAD.
+        Visualize your entire autonomous system architecture in real-time. AI agents automatically map dependencies, identify integration points, and flag potential conflicts before they become problems.
       </p>
     </div>
 
@@ -17,7 +17,7 @@
       <!-- Window Header -->
       <div class="bg-gray-50 border-b border-gray-200 px-4 py-2 flex items-center justify-between">
          <div class="flex items-center gap-2">
-            <span class="text-xs font-semibold text-gray-700">Atlas Main BOM</span>
+            <span class="text-xs font-semibold text-gray-700">Voyager AV System Architecture</span>
          </div>
          <div class="flex items-center gap-3">
             <div class="flex items-center gap-1 text-xs text-gray-500 bg-white border border-gray-200 px-2 py-1 rounded">
@@ -35,15 +35,15 @@
 
       <!-- Table Header -->
       <div class="grid grid-cols-12 bg-gray-50 border-b border-gray-200 text-[10px] font-bold text-gray-500 uppercase tracking-wider py-2 px-4">
-         <div class="col-span-1">Make/Buy</div>
-         <div class="col-span-1">Alt</div>
+         <div class="col-span-1">Status</div>
+         <div class="col-span-1">Type</div>
          <div class="col-span-1">Lvl</div>
-         <div class="col-span-2">Part #</div>
-         <div class="col-span-3">Part Name</div>
-         <div class="col-span-1">Rev</div>
-         <div class="col-span-1">Qty</div>
-         <div class="col-span-1">UOM</div>
-         <div class="col-span-1">Part Family</div>
+         <div class="col-span-2">Module ID</div>
+         <div class="col-span-3">Module Name</div>
+         <div class="col-span-1">Ver</div>
+         <div class="col-span-1">Owner</div>
+         <div class="col-span-1">Tests</div>
+         <div class="col-span-1">Category</div>
       </div>
 
       <!-- Table Body - Empty State / Search for effect -->
@@ -51,7 +51,7 @@
          <!-- Search Overlay Effect -->
          <div class="absolute top-4 left-4 right-4 bg-white border border-gray-200 shadow-sm rounded p-2 flex items-center gap-2 max-w-md z-10">
             <span class="text-gray-400">🔍</span>
-            <span class="text-sm text-gray-900">Atl|</span>
+            <span class="text-sm text-gray-900">perception|</span>
             <div class="w-[1px] h-4 bg-blue-500 animate-pulse"></div>
          </div>
          
@@ -82,10 +82,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><path d="M14 17h6"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Assembly Hierarchies</h3>
+             <h3 class="text-lg font-bold text-white">Module Dependencies</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Toggle and re-order assembly hierarchies by just dragging them around. No more manual marking of levels.
+             Automatically map dependencies between perception, planning, and control modules. AI agents detect circular dependencies and suggest optimal integration patterns.
           </p>
        </div>
 
